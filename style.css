@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #a9c7e0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: rgb(19, 178, 231);
+  color: white;
+}
+.text1 {
+  color: white;
+}
+.text2 {
+  color: black;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+input {
+  padding: 8px;
+  width: 500px;
+  outline: none;
+  border: none;
+}
+.input-icon {
+  padding: 7px;
+  border: none;
+  color: white;
+  border: 1px solid white;
+}
