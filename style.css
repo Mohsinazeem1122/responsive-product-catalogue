@@ -36,3 +36,59 @@ input {
   color: white;
   border: 1px solid white;
 }
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+/* small screens */
+@media (max-width: 1000px) {
+  input {
+    padding: 5px;
+    width: 350px;
+    outline: none;
+    border: none;
+  }
+  .input-icon {
+    padding: 4px;
+    border: none;
+    color: white;
+    border: 1px solid white;
+  }
+  .icons {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+/* mobile screens */
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(19, 178, 231);
+    color: white;
+  }
+  .navbar h1 {
+    font-size: 16px;
+  }
+  input {
+    padding: 3px;
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+  .input-icon {
+    padding: 3px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  .icons {
+    display: flex;
+    gap: 5px;
+  }
+}
