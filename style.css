@@ -158,6 +158,39 @@ input {
   padding-bottom: 15px;
 }
 
+/* smart watches */
+#watches-heading {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+.smart-watches {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+}
+.smart-watches div {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  box-shadow: rgba(0, 0, 0, 0.43) 0px 5px 10px;
+  border-radius: 8px;
+}
+.smart-watches div img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+.smart-watches p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
 /* small screens */
 @media (max-width: 1000px) {
   /* navbar */
@@ -240,6 +273,29 @@ input {
     margin: 10px;
     margin-bottom: 5px;
     background-color: transparent;
+  }
+
+  /* smart watches */
+
+  .smart-watches {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-evenly;
+  }
+  .smart-watches div {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.43) 0px 5px 10px;
+    border-radius: 8px;
+  }
+  .smart-watches div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
   }
 }
 
@@ -344,5 +400,33 @@ input {
     font-size: 3vh;
     padding-top: 3px;
     padding-bottom: 10px;
+  }
+
+  /* smart watches */
+
+  .smart-watches {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: space-around;
+  }
+  .smart-watches div {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 130px;
+    margin-bottom: 20px;
+    padding: 10px 50px;
+    box-shadow: rgba(0, 0, 0, 0.43) 0px 5px 10px;
+    border-radius: 8px;
+  }
+  .smart-watches div img {
+    width: 80px;
+    height: 90px;
+    border-radius: 8px;
+  }
+  .smart-watches p {
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 50px;
   }
 }
