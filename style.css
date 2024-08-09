@@ -85,8 +85,9 @@ input {
 }
 .mobiles {
   display: grid;
-  grid-template-columns: 14% 14% 14% 14% 14% 14%;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
   justify-content: space-around;
+  gap: 20px;
 }
 .mobiles div {
   display: grid;
@@ -96,7 +97,7 @@ input {
   background-color: #fafafa;
   border: 1px solid gainsboro;
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 8px;
 }
 .mobiles div img {
   height: 150px;
@@ -156,6 +157,28 @@ input {
   }
 
   /* Mobiles */
+  #mob-heading {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+  }
+  .mobiles {
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+  }
+  .mobiles div {
+    margin: 10px 0;
+    height: 100%;
+    margin-bottom: 0px;
+    border: 1px solid #a9c7e0;
+  }
+  .mobiles div img {
+    height: 80%;
+    width: 90%;
+  }
+  .mobiles span p {
+    font-size: medium;
+  }
 }
 
 /* mobile screens */
@@ -209,5 +232,29 @@ input {
   .hero-img img {
     width: 100%;
     height: 100%;
+  }
+
+  /* Mobiles */
+  #mob-heading {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0px 10px;
+    font-size: 3.5vh;
+  }
+  .mobiles {
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    gap: 5px;
+    margin: 10px 10px;
+  }
+  .mobiles div img {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .mobiles span p {
+    padding: 3px;
+    font-size: smaller;
   }
 }
